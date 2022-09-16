@@ -10,4 +10,10 @@
             <class name="test.TestVerifyUserIsAbleToGoToDashboard"/>
         </classes>
     </test>
+    <test name="Verify user is able to click on book option">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="test.VerifyBookPage"/>
+        </classes>
+    </test>
 </suite>

@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 public class PageFactory {
     WebDriver driver;
     private DashboardPage Dashboard;
+    private BookPage Book;
 
     public PageFactory(WebDriver driver) {
         this.driver = driver;
@@ -14,5 +15,12 @@ public class PageFactory {
             Dashboard = new DashboardPage(driver);
         }
         return Dashboard;
+    }
+
+    public  BookPage getBook() {
+        if (Book == null) {
+            Book = new BookPage(driver);
+        }
+        return Book;
     }
 }

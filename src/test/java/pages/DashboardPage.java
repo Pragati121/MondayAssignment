@@ -12,7 +12,7 @@ public class DashboardPage {
     By ComputerHyperlink = By.xpath("//a[text()='Computers ']");
     By Notebook          = By.xpath("//a[text()=' Notebooks ']");
     By Cart              = By.xpath("//button[contains(@class,'button-2')]");
-    By Cart2             = By.xpath("//button[text()=\"Add to cart\"][1]");
+    By Cart2             = By.xpath("//button[contains(@class,'add-to-cart-button')][1]");
     By Shoppingcart      =  By.xpath("//a[@class='ico-cart']");
     By Checkout          = By.xpath("//button[@name='checkout']");
     public DashboardPage(WebDriver driver){

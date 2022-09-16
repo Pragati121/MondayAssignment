@@ -19,7 +19,6 @@ public class BaseTest {
         driver.navigate().to("https://demo.nopcommerce.com/");
         pageFactory = new PageFactory(driver);
     }
-
     @AfterClass
     public void close()
     {
