@@ -17,8 +17,9 @@ public class BaseTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.navigate().to("https://demo.nopcommerce.com/");
-        //pageFactory = new PageFactory(driver);
+        pageFactory = new PageFactory(driver);
     }
+
     @AfterClass
     public void close()
     {

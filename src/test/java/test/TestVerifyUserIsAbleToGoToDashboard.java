@@ -7,7 +7,7 @@ import java.io.IOException;
 public class TestVerifyUserIsAbleToGoToDashboard extends BaseTest {
 
     @Test
-    public void Dashboardtest() throws IOException {
+    public void Dashboardtest() throws IOException, InterruptedException {
         pageFactory.getDashboardPage().DashboardUser();
     }
 }
