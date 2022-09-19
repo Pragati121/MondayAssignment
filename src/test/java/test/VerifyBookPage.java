@@ -12,8 +12,9 @@ public class VerifyBookPage extends BaseTest {
     }
 
     @Test
-    public void Booktest() throws InterruptedException {
+    public void Booktest() throws InterruptedException, IOException {
         pageFactory.getBook().BookUser();
+        pageFactory.getBook().login();
     }
 }
 

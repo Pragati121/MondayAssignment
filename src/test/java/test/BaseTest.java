@@ -20,8 +20,8 @@ public class BaseTest {
         pageFactory = new PageFactory(driver);
     }
     @AfterClass
-    public void close()
+   public void close()
     {
-        driver.close();
+       driver.close();
     }
 }
